@@ -2,7 +2,7 @@
  * 
  */
 angular.module('Home', [])
-    .controller('controller', function ($rootScope,$scope, $http, $interval){
+    .controller('HomeController', function ($rootScope,$scope, $http, $interval){
 
     	
     	$scope.testClick = function() {
