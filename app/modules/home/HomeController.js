@@ -1,7 +1,7 @@
 /**
  * 
  */
-angular.module('Home', [])
+angular.module('Home')
     .controller('HomeController', function ($rootScope,$scope, $http, $interval){
 
     	
