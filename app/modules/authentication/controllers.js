@@ -1,6 +1,6 @@
 'use strict';
  
-angular.module('Authentication',[])
+angular.module('Authentication')
  
 .controller('LoginController',
     ['$scope', '$rootScope', '$location', 'AuthenticationService',
